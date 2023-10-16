@@ -1,8 +1,17 @@
 import { ThemeConfig, theme as antTheme } from "antd";
 
 const { getDesignToken } = antTheme;
+
 /**
- * 當前預設 token
+ * 注意，若樣式需同時賦予 tailwindCSS 與 antd
+ * 建議在 .env 與 src/vite-env.d.ts 建立 VITE_ 開頭的變數
+ * 在 tailwind.config.ts 使用 process.env.VITE_ 讀取
+ * 在 本檔案 使用 import.meta.env.VITE_ 讀取
+ * 在編譯時決定樣式較不會出問題
+ */
+
+/**
+ * 當前預設全域基礎 token
  */
 const globalToken = getDesignToken();
 
