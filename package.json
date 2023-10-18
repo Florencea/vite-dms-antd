@@ -12,8 +12,8 @@
     "@ant-design/cssinjs": "^1.17.2",
     "@ant-design/icons": "^5.2.6",
     "@generouted/react-router": "^1.16.1",
-    "@types/node": "^20.8.6",
-    "@types/react": "^18.2.28",
+    "@types/node": "^20.8.7",
+    "@types/react": "^18.2.29",
     "@types/react-dom": "^18.2.13",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
@@ -34,6 +34,6 @@
     "react-router-dom": "^6.17.0",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.2.2",
-    "vite": "^4.4.11"
+    "vite": "^4.5.0"
   }
 }
