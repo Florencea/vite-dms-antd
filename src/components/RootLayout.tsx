@@ -45,7 +45,9 @@ export const RootLayout = () => {
             mode="inline"
             defaultSelectedKeys={[pathname]}
             items={menuItems}
-            onClick={({ key }) => to(key as Path)}
+            onClick={({ key }) => {
+              to(key as Path);
+            }}
           />
         </Sider>
         <Layout style={{ marginLeft: MENU_WIDTH, marginTop: NAV_HEIGHT * -1 }}>
