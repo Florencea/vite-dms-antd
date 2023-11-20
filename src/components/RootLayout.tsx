@@ -1,7 +1,7 @@
 import { BookOutlined, CameraOutlined } from "@ant-design/icons";
-import { Layout, Menu, MenuProps } from "antd";
+import { Layout, Menu, type MenuProps } from "antd";
 import { Outlet, useLocation } from "react-router-dom";
-import { Path, useNavigate } from "../router";
+import { useNavigate, type Path } from "../router";
 import { MENU_WIDTH, NAV_HEIGHT } from "../styles/theme";
 
 const { Header, Content, Sider } = Layout;
