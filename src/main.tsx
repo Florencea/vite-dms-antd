@@ -8,9 +8,7 @@ import { createRoot } from "react-dom/client";
 import "./styles/main.css";
 import { theme } from "./styles/theme.ts";
 
-const container = document.getElementById(
-  import.meta.env.VITE_REACT_ROOT_ID,
-) as HTMLDivElement;
+const container = document.getElementById("root") as HTMLDivElement;
 
 createRoot(container).render(
   <StrictMode>
