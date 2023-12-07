@@ -11,10 +11,10 @@
     "format": "prettier \"**/*\" --write --ignore-unknown --cache"
   },
   "devDependencies": {
-    "@ant-design/cssinjs": "^1.18.0",
+    "@ant-design/cssinjs": "^1.18.1",
     "@ant-design/icons": "^5.2.6",
     "@generouted/react-router": "^1.16.1",
-    "@types/node": "^20.10.3",
+    "@types/node": "^20.10.4",
     "@types/react": "^18.2.42",
     "@types/react-dom": "^18.2.17",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
